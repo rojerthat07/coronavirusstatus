@@ -221,7 +221,7 @@ $(".top-country__country").fadeIn();
       <Router>
       <div className="App">
         <Header />
-        <Route path="/corona-virus-status-react" exact >
+        <Route path="/coronavirusstatus" exact >
   
       <div className="main">
        {this.state.allCovid}
@@ -257,9 +257,9 @@ $(".top-country__country").fadeIn();
        </div>
        </Route>
        <div className="main">
-       <Route path="/corona-virus-status-react/developer" component={Developer} />
-      <Route path="/corona-virus-status-react/aboutcorona" component={AboutCorona} />
-      <Route path="/corona-virus-status-react/prevention" component={Prevention} />
+       <Route path="/coronavirusstatus/developer" component={Developer} />
+      <Route path="/coronavirusstatus/aboutcorona" component={AboutCorona} />
+      <Route path="/coronavirusstatus/prevention" component={Prevention} />
       </div>
      
       </div>
