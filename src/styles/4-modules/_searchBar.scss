@@ -1,0 +1,60 @@
+.search-bar{
+    display: grid;
+    grid-template-columns: 10fr 2fr;
+    align-content: center;
+    justify-content: center;
+    grid-gap: 1em;
+    margin:  auto;
+    @include laptop{
+        grid-template-columns: 1fr;
+        grid-gap: 0em;
+    }
+
+  
+ 
+    .search-bar__input{
+        width: 100%;
+        padding:.5em;
+        font-size: 1.5em;
+        margin:1em auto;
+        background-color: rgb(248, 248, 248);
+        border: none;
+        transition: .5s;
+        &:focus{
+            background-color: black;
+            color: white;
+        }
+        @include laptop{
+            font-size: 1.2em;
+        }
+  
+        @include tablet{
+            font-size: 1em;
+        }
+
+    }
+    
+    .search-bar__button{
+        width: 100%;
+        border: none;
+        cursor: pointer;
+        padding:1em 0;
+        text-transform: uppercase;
+        background-color: rgb(32, 31, 31);
+        color: white;
+        margin: 1.5em auto;
+        &:hover{
+            background-color: rgb(0, 0, 0);
+        }
+        @include laptop{
+           padding:1em 0;
+           margin: 0em auto 1em auto;
+        }
+        
+        @include tablet{
+            font-size: .8em;
+            margin: 1.2em auto;
+        }
+       
+    }
+}

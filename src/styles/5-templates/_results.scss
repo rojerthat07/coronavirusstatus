@@ -1,0 +1,202 @@
+.results{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1em;
+    @include laptop{
+        grid-template-columns: 1fr 1fr ;
+    }
+    @include mini-laptop{
+        grid-template-columns: 1fr 1fr ;
+    }
+    @include tablet{
+        grid-template-columns: 1fr ;
+    }
+    @include mobile{
+        grid-template-columns: 1fr;
+    }
+  
+    .results__item{
+        display: inline-block;
+        padding:.5em;
+        border: 1px solid rgb(134, 133, 133);
+
+   
+        font-family: font("font5");
+        .results__data{
+            font-family: font("font3");
+        }
+       
+       
+    }
+  
+}
+
+.country__info{
+    border: 1px solid rgb(138, 135, 135);
+    .country{
+        padding:.7em 1em .7em 1em;
+        
+        .country__name{
+            font-size: 3em;
+            @include laptop{
+                font-size: 2.5em;
+            }
+            @include tablet{
+                font-size: 2.5em;
+            }
+            @include mobile{
+                font-size: 2em;
+            }
+           
+            img{
+                width:5%;
+                @include laptop{
+                    width:8%;
+                }
+                @include tablet{
+                    width:15%;
+                }
+                
+            }
+        }
+
+        .country__status{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            @include mini-laptop{
+                grid-template-columns: 1fr 1fr;
+            }
+            @include tablet{
+                grid-template-columns: 1fr;
+            }
+            
+            .country__item{
+                font-size: 1.5em;
+                @include laptop{
+                    font-size: 1.3em;
+                }
+                @include mobile{
+                    font-size: 1em;
+                }
+               
+            }
+            .country__data{
+               
+            }
+        }
+
+        .country__information{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            @include mini-laptop{
+                grid-template-columns: 1fr 1fr ;
+            }
+            @include mobile{
+                grid-template-columns: 1fr;
+            }
+            .country__item{
+                font-size: 1.2em;
+                color:white;
+                @include laptop{
+                    font-size: 1em;
+                }
+                @include tablet{
+                    font-size: .9em;
+                }
+               
+            }
+            .country__data{
+                font-size: 1em;
+                color:rgb(95, 212, 95);
+            }
+        }
+      
+    }
+}
+
+
+
+.top-country{
+
+    display: grid;
+    grid-template-columns: 1fr;
+    border: 1px solid white;
+    padding:1em;
+
+
+    .top-country__country{
+        display: grid;
+        grid-template-columns: 2fr 10fr ;
+        justify-content: center;
+        align-content: center;
+        padding:.2em;
+        border-bottom: 1px solid rgb(88, 87, 87);
+        @include laptop{
+            grid-template-columns: 4fr 8fr ;
+        }
+        @include tablet{
+            grid-template-columns: 1fr ;
+            grid-gap: 1em;
+            margin: .5em 0;
+            border-bottom: 1px solid rgb(88, 87, 87);
+            padding-bottom: 1em;
+        }
+        .top-country__name{
+            font-size: 1em;
+            margin-bottom: .2em;
+            justify-content: center;
+            align-content: center;
+           
+            img{
+                max-height: 15px;
+                width:15%;
+                @include laptop{
+                    width:18%;
+                    max-height: 40px;
+                }
+                @include tablet{
+                    width:10%;
+                    max-height: 40px;
+                }
+                @include mobile{
+                    width:15%;
+                    max-height: 40px;
+                }
+            }
+        }
+        .top-country__information{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            
+            @include laptop{
+                grid-template-columns: 1fr 1fr ;
+            }
+            @include tablet{
+                grid-template-columns: 1fr ;
+            }
+            justify-content: center;
+            .top-country__item{
+                font-size: 1em;
+                @include laptop{
+                    font-size: .9em;
+                }
+            }
+            .top-country__data{
+            
+            }
+        }
+
+    }
+ 
+  
+}
+
+
+
+
+.results__data--good{
+    color:greenyellow;
+}
+.results__data--bad{
+    color:red;
+}

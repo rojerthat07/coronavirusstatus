@@ -1,0 +1,43 @@
+.who{
+    text-align: center;
+    border: 1px solid white;
+    padding:2em .5em;
+    margin:2em;
+
+
+    @include tablet{
+        margin:3em 1em;
+    }
+   
+    img{
+        margin: 1em auto;
+        display: block;
+        width: 7%;
+        @include laptop{
+            width: 10%;
+        }
+        @include mini-laptop{
+            width: 15%;
+        }
+    }
+    .who__heading{
+        font-size: 3em;
+        @include mini-laptop{
+            font-size: 2.5em;
+        }
+        @include tablet{
+            font-size: 1.7em;
+            
+        }
+        @include mobile{
+            font-size: 1.5em;
+            
+        }
+    }
+    .who__paragraph{
+        font-size: 1em;
+        @include tablet{
+            font-size: .9em;
+        }
+    }
+}
