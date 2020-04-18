@@ -221,7 +221,7 @@ $(".top-country__country").fadeIn();
       <Router>
       <div className="App">
         <Header />
-        <Route path="/coronavirusstatus" exact >
+        <Route path="/" exact >
   
       <div className="main">
        {this.state.allCovid}

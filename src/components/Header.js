@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 function Header() {
     return (
         <nav className="navbar navbar-expand-md navbar-dark">
-             <Link to="/coronavirusstatus" style={{textDecoration:"none"}}>
+             <Link to="/" style={{textDecoration:"none"}}>
         <span className="navbar-brand">Corona Virus Updates</span>
         </Link>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -12,7 +12,7 @@ function Header() {
         </button>
         <div className="collapse navbar-collapse" id="collapsibleNavbar">
             <ul className="navbar-nav">
-            <Link to="/coronavirusstatus" style={{textDecoration:"none"}}>
+            <Link to="/" style={{textDecoration:"none"}}>
             <li className="nav-item">
                 <span className="nav-link" >Home</span>
             </li>  
