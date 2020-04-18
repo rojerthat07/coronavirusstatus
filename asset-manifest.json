@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/coronavirusstatus/static/css/main.d194a476.chunk.css",
-    "main.js": "/coronavirusstatus/static/js/main.289f88de.chunk.js",
-    "main.js.map": "/coronavirusstatus/static/js/main.289f88de.chunk.js.map",
-    "runtime-main.js": "/coronavirusstatus/static/js/runtime-main.3231dd4d.js",
-    "runtime-main.js.map": "/coronavirusstatus/static/js/runtime-main.3231dd4d.js.map",
-    "static/js/2.e7376c57.chunk.js": "/coronavirusstatus/static/js/2.e7376c57.chunk.js",
-    "static/js/2.e7376c57.chunk.js.map": "/coronavirusstatus/static/js/2.e7376c57.chunk.js.map",
-    "index.html": "/coronavirusstatus/index.html",
-    "precache-manifest.0165634b29f85d11f99e6eedf435eff0.js": "/coronavirusstatus/precache-manifest.0165634b29f85d11f99e6eedf435eff0.js",
-    "service-worker.js": "/coronavirusstatus/service-worker.js",
-    "static/css/main.d194a476.chunk.css.map": "/coronavirusstatus/static/css/main.d194a476.chunk.css.map",
-    "static/js/2.e7376c57.chunk.js.LICENSE.txt": "/coronavirusstatus/static/js/2.e7376c57.chunk.js.LICENSE.txt",
-    "static/media/photo-1583324113626-70df0f4deaab.jpg": "/coronavirusstatus/static/media/photo-1583324113626-70df0f4deaab.e717a15a.jpg"
+    "main.css": "/static/css/main.d194a476.chunk.css",
+    "main.js": "/static/js/main.a2a8364f.chunk.js",
+    "main.js.map": "/static/js/main.a2a8364f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.009a9289.js",
+    "runtime-main.js.map": "/static/js/runtime-main.009a9289.js.map",
+    "static/js/2.e7376c57.chunk.js": "/static/js/2.e7376c57.chunk.js",
+    "static/js/2.e7376c57.chunk.js.map": "/static/js/2.e7376c57.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.d0e0c8fb03293cec04c131c81606fe6f.js": "/precache-manifest.d0e0c8fb03293cec04c131c81606fe6f.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.d194a476.chunk.css.map": "/static/css/main.d194a476.chunk.css.map",
+    "static/js/2.e7376c57.chunk.js.LICENSE.txt": "/static/js/2.e7376c57.chunk.js.LICENSE.txt",
+    "static/media/photo-1583324113626-70df0f4deaab.jpg": "/static/media/photo-1583324113626-70df0f4deaab.e717a15a.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3231dd4d.js",
+    "static/js/runtime-main.009a9289.js",
     "static/js/2.e7376c57.chunk.js",
     "static/css/main.d194a476.chunk.css",
-    "static/js/main.289f88de.chunk.js"
+    "static/js/main.a2a8364f.chunk.js"
   ]
 }
