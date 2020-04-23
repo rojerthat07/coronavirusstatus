@@ -16,7 +16,7 @@ class Countries extends Component {
                     <div className="country__item">Cases: <span className="country__data results__data--bad">{formatNumber(this.props.country.cases)}</span> </div>
                     <div className="country__item">Deaths: <span className="country__data results__data--bad">{formatNumber(this.props.country.deaths)}</span> </div>
                     <div className="country__item">Active: <span className="country__data">{formatNumber(this.props.country.active)}</span></div>
-                    <div className="country__item">Recovered: <span className="country__data results__data--good">{formatNumber(this.props.country.recovered)}</span></div>
+                    <div className="country__item">Recovered: <span className="country__data results__data--good">{ (this.props.country.recovered) === 0 ? "N/A" : formatNumber(this.props.country.recovered)}</span></div>
                    
                 </div>
                 

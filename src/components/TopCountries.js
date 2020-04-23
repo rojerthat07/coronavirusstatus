@@ -15,8 +15,8 @@ class TopCountries extends Component {
             <div className="top-country__item">Cases: <span className="top-country__data results__data--bad">{formatNumber(this.props.country[1])}</span> </div>
             <div className="top-country__item">Deaths: <span className="top-country__data results__data--bad">{formatNumber(this.props.country[3])}</span> </div>
             <div className="top-country__item">Active: <span className="top-country__data ">{formatNumber(this.props.country[4])}</span> </div>
-            <div className="top-country__item">Recovered: <span className="top-country__data results__data--good">{formatNumber(this.props.country[5])}</span> </div>
-                
+            <div className="top-country__item">Recovered: <span className="top-country__data results__data--good">  {(this.props.country[5] === 0 ? "N/A" : formatNumber(this.props.country[5]))}</span> </div>
+              
             </div>
 
             </div>
