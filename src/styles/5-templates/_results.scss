@@ -19,23 +19,21 @@
         display: inline-block;
         padding:.5em;
         border: 1px solid rgb(134, 133, 133);
+        font-family: font("font3");
 
-   
-        font-family: font("font5");
         .results__data{
             font-family: font("font3");
         }
-       
-       
     }
   
 }
 
 .country__info{
     border: 1px solid rgb(138, 135, 135);
+
     .country{
         padding:.7em 1em .7em 1em;
-        
+    
         .country__name{
             font-size: 3em;
             @include laptop{
