@@ -226,7 +226,8 @@ $(".top-country__country").fadeIn();
       <div className="main">
        {this.state.allCovid}
        <form className="search-bar" onSubmit={this.submitHandler}>
-        <input id="search-bar__input" onChange={this.searchChangeHandler} className="search-bar__input" placeholder="Enter Country Name or Country ISO" type="text"/>
+         <label htmlFor="search" style={{display:"none"}}></label>
+        <input name="search" id="search-bar__input" title="Enter Country Name or Country ISO" onChange={this.searchChangeHandler} className="search-bar__input" placeholder="Enter Country Name or Country ISO" type="text"/>
         <input  type="submit" className="search-bar__button" value="Search "/>
         </form>
           <div className="country__info">

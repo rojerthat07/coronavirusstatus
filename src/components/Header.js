@@ -7,7 +7,7 @@ function Header() {
              <Link to="/" style={{textDecoration:"none"}}>
         <span className="navbar-brand">Corona Virus Updates</span>
         </Link>
-        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <button title="button" className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="collapsibleNavbar">
