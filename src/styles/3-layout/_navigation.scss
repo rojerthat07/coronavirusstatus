@@ -1,36 +1,31 @@
-.navbar{
-    background-color: rgb(34, 34, 34);
-    position: sticky;
-    top:0;
- 
-    .navbar-brand{
-        color:white;
-        &:hover{
-            color:Red;
-        }
-    }
-    .navbar-toggler{
-     
-      
-     
-        .navbar-toggler-icon{
-            
-        
-        }
-    }
+.navbar {
+  background-color: rgb(34, 34, 34);
+  position: sticky;
+  top: 0;
 
-    .navbar-nav{
-        margin-left: auto;
-        .nav-item{
-            margin:0 .5em;
-            .nav-link{
-                color:white;
-                font-size: .9em;
-                padding:.5em;
-            }
-            &:hover{
-                background-color: rgb(221, 13, 13)
-            }
-        }
+  .navbar-brand {
+    color: white;
+    &:hover {
+      color: Red;
     }
+  }
+  .navbar-toggler {
+    .navbar-toggler-icon {
+    }
+  }
+
+  .navbar-nav {
+    margin-left: auto;
+    .nav-item {
+      margin: 0 0.5em;
+      .nav-link {
+        color: white;
+        font-size: 0.9em;
+        padding: 0.5em;
+        &:hover {
+          color: red;
+        }
+      }
+    }
+  }
 }
